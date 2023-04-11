@@ -1,0 +1,149 @@
+
+ul {
+    
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    padding-left: 5% !important;
+    position: fixed !important;
+    width: 100%;
+    /*lines 9 and 10 allow the navbar to stay along the top of the page at all times*/
+}
+.mainContent{
+    margin: auto 5%;
+    padding-bottom: 10rem;
+}
+#foot{
+    text-align: center !important;
+    bottom: 0 !important;
+    color: whitesmoke;
+}
+footer{
+    background-color: rgb(33, 37, 41);
+    height: 2rem;
+    bottom: 0 !important;
+    width: 100%;
+    position: fixed;
+}
+.centerContent{
+    text-align: center;
+    padding-top: 20px;
+}
+.nav-link{
+    padding: .5rem;
+}
+.nav-link:hover{
+    border: 1px solid;
+}
+.page-title{
+    text-align: center;
+    background-color: lightgray; 
+    padding: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.img-fluid{
+    max-height: 95%;
+    margin: .25em; 
+    filter: drop-shadow(2px 2px 1px #757575);
+}
+/* resource searching*/
+.sidenav {
+    width: auto;
+    position: fixed;
+    z-index: 1;
+    top: 30%;
+    left: 5%;
+    border-right: solid 1px #757575;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+.sidenav :hover{
+    background-color: #F7F7F7;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #212529;
+    display: block;
+}
+.resourcesmain {
+    margin-left: 200px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    margin-top: 1rem;
+}
+.columnb {
+    background-color: #FCFCFC;
+    display: inline;
+    top: 30%;
+    left: 5%;
+    overflow-x: hidden;
+    height: 200px;    
+}
+.columna {
+    background-color: #eee;
+    top: 30%;
+    left: 5%;
+    overflow-x: hidden;
+    height: 200px;
+}
+
+#newsletter{
+    width: 50%;
+    border: solid 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 3rem;
+}
+#newsletter h4{
+    text-align: center;
+    margin: 1rem;
+    text-decoration: underline;
+}
+#newsletter select{
+    width: 100%;
+}
+#newsletter input{
+    width:100%;
+    margin-top: 1rem
+}
+#newsletter button{
+    width:100%;
+    text-align: center;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#moreinfo{
+    float: right;
+    width: 40%;
+    display: inline;
+}
+#sendemail{
+    border: solid 1px;
+    width: 50%;    
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 3rem;
+}
+#sendemail h4{
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: underline;
+}
+#sendemail input{
+    width:100%;
+    margin-top: 1rem
+}
+#sendemail button{
+    width:100%;
+    text-align: center;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
