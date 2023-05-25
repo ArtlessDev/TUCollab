@@ -37,6 +37,7 @@ footer{
     border: 1px solid;
 }
 .page-title{
+    top: 100px;
     text-align: center;
     background-color: lightgray; 
     padding: 1rem;
